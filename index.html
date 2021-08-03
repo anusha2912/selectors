@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>selectors</title>
+    <style>
+        *{
+            background-color: aqua;
+            text-align: center;
+        }
+        #id1{
+            width:100%;
+            height:100px;
+            padding:10px;
+            border-color: 5px green(245, 11, 50);
+            color:deeppink;
+            margin:10px;
+            font-size:20px;
+            font-weight:bold;
+            text-align:center;
+        }
+        .clas{
+            width:100%;
+            height:100px;
+            padding:10px;
+            border-color: 5px green(245, 11, 50);
+            color:crimson;
+            margin:10px;
+            font-size:20px;
+            font-weight:bold;
+            text-align:center;
+        }
+        h3,h4{
+            width:100%;
+            height:100px;
+            padding:10px;
+            border-color: 5px green(245, 11, 50);
+            color:darkred;
+            margin:10px;
+            font-size:20px;
+            font-weight:bold;
+            text-align:center;
+        }
+        pseudo{
+            display: none;
+            background-color: rgb(4, 0, 255);
+            padding: 20px;
+        }
+        div:hover pseudo {
+            display: block;
+        }
+    </style>
+    <body>
+        <h1> Selectors</h1>
+        <p id="id1">Id selectors:<br>The CSS ID selector matches an element based on the value of the element's id attribute. In order for the element to be selected, its id attribute must match exactly the value given in the selector</p>
+        <p class="clas">Class selectors:<br>A class selector allows you to define style rules that apply to any element with a class attribute equal to a certain value. As we discussed earlier, the ID selector can only be used to style one element. This is because IDs can only be used once on a web page.</p>
+        <h3>grouping selectors:<br>The grouping selector selects all the HTML elements with the same style definitions.</h3>
+        <div>Hover :</div>
+        <p><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">click here</a></p>
+    </body>
+</head>
